@@ -1,0 +1,37 @@
+body {
+    font-family: fantasy;
+    background-color:#98AFC7
+    padding: 25px;
+    font-size: 100%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: #D8BFD8;
+    border: dotted 16px #C6DEFF;
+    height: 180vh;
+}
+
+h1, h2, h3 {
+    font-family: didot cursive;
+    font-size: 230%;
+    color: #778899
+
+}
+
+
+  img#selfie7 {
+    float:right;
+    width: 400px;
+    height: 535px;
+    border: dotted 10px #C6DEFF
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
