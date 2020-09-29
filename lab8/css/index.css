@@ -1,0 +1,46 @@
+body {
+    font-family: "Didot";
+    background-color:lavender;
+    padding: 25px;
+    font-size: 120%;
+}
+div#purpose {
+  border: dotted;
+  padding: 25px;
+}
+div#challenges {
+
+  border: dotted;
+  padding: 25px
+}
+div#results{
+  border: dotted;
+  padding: 25px;
+}
+#purpose{background-color: lightgrey}
+#challenges {background-color: #C6DEFF}
+#results {background-color: #f2d9e6}
+h1,h2,h3 {
+    font-family: "Didot"
+
+}
+img {
+  width: 800px;
+  height: 450px;
+  border-style: double;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img:hover{
+  width: 1440px;
+  height: auto;
+}
+a {
+    text-decoration: none;
+    color: #grey;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
