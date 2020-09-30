@@ -1,0 +1,64 @@
+body {
+    font-family:"Didot", didot;
+    background-color: #611436;
+    padding: 25px;
+    font-size: 122%;
+    text-align: center;
+}
+
+div#content {
+    padding: 50px;
+    background-color: #7D465E;
+    border: double 10px #C0C0C0;
+    height: 200vh;
+}
+div#purpose{
+  padding: 50px;
+  width: 750px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #7D465E;
+  border: double 10px #C0C0C0;
+}
+div#challenges{
+  padding: 50px;
+  width: 870px;
+  height: auto;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: #611436;
+  border: double 10px #C0C0C0;
+}
+div#results{
+  padding: 50px;
+  width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 15px #C0C0C0
+}
+h1, h2, h3 {
+    font-family: "didot";
+    font-size: 20pt;
+
+}
+
+img {
+    float: center;
+    width: 400px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: double 25px #C0C0C0
+}
+
+a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: underline;
+}
