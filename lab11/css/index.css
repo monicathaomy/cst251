@@ -49,11 +49,9 @@ div#results{
   border:double 8px #485F77;
   float: left;
 }
-
 h1, h2, h3 {
     font-family: "Georgia", monospace;
 }
-
 img {
     float: left;
     width: 400px;
@@ -69,10 +67,8 @@ nav{
   position: sticky;
   top: 0px;
   background-color: white;
-
 }
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
-
 }
