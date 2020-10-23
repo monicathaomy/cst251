@@ -1,0 +1,129 @@
+body {
+    font-family: "Didot", didot;
+    padding: 0px;
+    font-size: 110%;
+    text-align: center;
+    background-image: #000000;
+
+}
+h1, h2, h3 {
+    font-family: "Didot", didot;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 180%;
+}
+img {
+    width: 360px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+div#image {
+    width: 360px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#content {
+    border: solid 15px #b09dc4;
+    margin: 50px;
+    padding: 50px;
+    background-image: linear-gradient(#a29ed0,#b0d3ff,#ffffff);
+}
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8D86B3;
+    color: #DDccff;
+    border: dashed 4px #000000;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C9DAF9;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddcec2;
+    color: #FFE4E1;
+    border: double 15px #FFE4E1;
+  }
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #b09dc4;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+/*----------------------------------------------*/
+
+/* text-shadow */
+div#begin {
+    text-shadow: 3px 3px 2px #000000;
+
+}
+
+/* box shadow */
+div#purpose {
+  border-radius: 25px;
+  border: dashed 6px #000000;
+  box-shadow: 9px 9px 18px #ffffff;
+  }
+
+div#results {
+  border-radius: 25px;
+  border: dashed 6px #000000;
+  box-shadow: 9px 9px 18px #ffffff;
+}
+
+/* rounded corners */
+div#challenges {
+    border-radius: 25px;
+    border: dashed 6px #000000;
+    box-shadow: 8px 9px 18px #ffffff;
+}
+div#image {
+    transform: rotate(15deg);
+}
+
+/* gradient */
+body {
+    background-image: linear-gradient(#b0d3ff,#ddcded);
+}
+
+/* filters */
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: blur(3px);
+}
+/* object-fit */
+img {
+    width: 380px;
+    height:400px;
+    box-shadow: 8px 9px 18px #ffffff
+}
+
+/* transform */
+img {
+
+}
