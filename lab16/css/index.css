@@ -1,0 +1,161 @@
+body {
+    font-family: "Didot", didot;
+    padding: 0px;
+    font-size: 110%;
+    text-align: center;
+    background-image: #000000;
+
+}
+h1, h2, h3 {
+    font-family: "Didot", didot;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 180%;
+}
+img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+div#image {
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#content {
+    border: solid 7px #ffffff;
+    margin: 50px;
+    padding: 50px;
+
+}
+div#purpose {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#91022f,#61092c);
+    color: #9f9f9f;
+  }
+
+div#challenges {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #9f9f9f;
+}
+
+div#results {
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#91022f,#61092c);
+    color: #9f9f9f;
+  }
+
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+/*----------------------------------------------*/
+
+/* text-shadow */
+div#begin {
+    text-shadow: 3px 3px 2px #000000;
+
+}
+
+/* box shadow */
+div#purpose {
+  border-radius: 25px;
+  border: double 9px #ffffff;
+  box-shadow: 9px 9px 18px #9f9f9f;
+  }
+
+div#results {
+  border-radius: 25px;
+  border: double 9px #ffffff;
+  box-shadow: 9px 9px 18px #9f9f9f;
+}
+
+/* rounded corners */
+div#challenges {
+    border-radius: 25px;
+    border: double 9px #ffffff;
+    box-shadow: 8px 9px 18px #9f9f9f;
+}
+
+/* gradient */
+body {
+    background-image: linear-gradient(#940e31,#551628,#410d1c);
+}
+
+/* filters */
+img {
+    filter: saturate(100%);
+}
+
+img:hover {
+    filter: blur(3px);
+    rotate:
+  }
+/* object-fit */
+img {
+    width: 630px;
+    height:400px;
+    box-shadow: 8px 9px 18px #ffffff
+}
+
+/* The animation code */
+@keyframes first {
+  0%   {background-color: #750021;}
+  25%  {background-color: #c8c5c5;}
+  50%  {background-color: #750021;}
+  100% {background-color: black;}
+}
+
+/* The element to apply the animation to */
+div#animation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 70px;
+  background-color: #750021;
+  animation-name: first;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  box-shadow: 8px 9px 18px #9f9f9f;
+
+}
+
+div#columns {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule-style: dashed;
+  color: #ffffff;
+  width: 900px;
+  height: 230px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+div#columns:hover {
+  width: 500px;
+}
