@@ -1,0 +1,63 @@
+body {
+    font-family:"Georgia";
+    padding: 32px;
+    font-size: 90%;
+    text-align: center;
+    background-color:#74a6bb;
+}
+
+div#content {
+    padding: 50px;
+    background-image: linear-gradient(#74a6bb,#cabcd1,#bfa9d1);
+    border: solid 13px #cabcd1;
+    height: 145vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#purpose {
+  padding: 40px;
+  width: 400px;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #d3c3e0;
+  border: double 10px #ffffff;
+}
+div#challenges{
+  padding: 40px;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#d3c3e0;
+  border: double 10px #ffffff;
+}
+div#results{
+  padding:40px;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#d3c3e0;
+  border:double 10px #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: "Georgia", monospace;
+
+}
+
+img {
+    float: right;
+    width: 800px;
+    height: 500px;
+}
+
+a {
+    text-decoration: bold;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
